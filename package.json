@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-dox",
   "description": "Dox grunt plugin",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "homepage": "https://github.com/ruffrey/grunt-dox",
   "author": {
     "name": "Jeff Parrish",
@@ -29,7 +29,7 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "dox": "*",
+    "dox": "git://github.com/iolo/dox.git#5a2bef47",
     "dox-foundation": "~0.5.0",
     "rimraf": "2.x"
   },
